@@ -34,10 +34,13 @@
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6",
-    "shelljs": "^0.5.3"
+    "ng-annotate-loader": "^0.1.0",
+    "shelljs": "^0.5.3",
+    "webpack": "^1.12.11"
   },
   "bugs": {
     "url": "https://github.com/dmitriz/min-angular/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {}
 }
