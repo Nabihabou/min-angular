@@ -12,6 +12,8 @@
     "url": "https://github.com/dmitriz"
   },
   "scripts": {
+    "start": "npm run build && open build/index.html",
+    "build": "webpack",
     "test": "karma start",
     "postinstall": "node index.js"
   },
