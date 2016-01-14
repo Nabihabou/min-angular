@@ -1,0 +1,42 @@
+{
+  "name": "min-angular",
+  "version": "0.1.0",
+  "description": "Minimal AngularJS setup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitriz/min-angular"
+  },
+  "author": {
+    "name": "Dmitri Zaitsev",
+    "email": "dmitri14@gmail.com",
+    "url": "https://github.com/dmitriz"
+  },
+  "scripts": {
+    "test": "karma start",
+    "postinstall": "node index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "karma.conf.js",
+    "index.js",
+    "src"
+  ],
+  "keywords": [
+    "karma",
+    "jasmine",
+    "testing",
+    "test",
+    "runner"
+  ],
+  "dependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "shelljs": "^0.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/dmitriz/min-angular/issues"
+  },
+  "license": "MIT"
+}
