@@ -41,6 +41,16 @@
     "webpack-stream": "^3.1.0"
   },
   "devDependencies": {},
+  "standard": {
+    "globals": [
+      "describe",
+      "expect",
+      "it",
+      "beforeEach",
+      "angular",
+      "document"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/dmitriz/min-angular/issues"
   },

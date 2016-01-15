@@ -1,11 +1,11 @@
 // component.js
 
-'use strict';
+'use strict'
 
 module.exports = function () {
-  var element = document.createElement('h1');
+  var element = document.createElement('h1')
 
-  element.innerHTML = 'Hello world';
+  element.innerHTML = 'Hello world'
 
-  return element;
-};
+  return element
+}

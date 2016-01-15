@@ -1,9 +1,9 @@
 // main.js
-'use strict';
+'use strict'
 
-var angular = require('angular');
-var component = require('./component.js');
+var angular = require('angular')
+var component = require('./component.js')
 
-angular.module('app', []);
+angular.module('app', [])
 
-document.body.appendChild(component());
+document.body.appendChild(component())
