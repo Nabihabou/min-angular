@@ -16,7 +16,7 @@ require('shelljs/global')
 var userPath = '../../'
 
 // Moving files to the local directory
-var filesToCopy = ['src']
+var filesToCopy = ['index.html']
 
 filesToCopy.forEach(function (file) {
   console.log('Copying file or directory: ', file)

@@ -12,15 +12,14 @@
     "url": "https://github.com/dmitriz"
   },
   "scripts": {
-    "start": "gulp && open build/index.html",
-    "build": "webpack",
+    "start": "open index.html",
     "test": "karma start",
     "postinstall": "node index.js"
   },
   "main": "index.js",
   "files": [
     "index.js",
-    "src"
+    "index.html"
   ],
   "keywords": [
     "angular",
@@ -30,15 +29,8 @@
   ],
   "dependencies": {
     "angular": "^1.4.8",
-    "gulp": "^3.9.0",
-    "gulp-live-server": "0.0.29",
-    "live-server": "^0.9.0",
     "min-karma": "^0.1.17",
-    "ng-annotate-loader": "^0.1.0",
-    "opn": "^3.0.3",
-    "shelljs": "^0.5.3",
-    "webpack": "^1.12.11",
-    "webpack-stream": "^3.1.0"
+    "shelljs": "^0.5.3"
   },
   "devDependencies": {},
   "standard": {
