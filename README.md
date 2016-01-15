@@ -1,8 +1,10 @@
 # min-angular [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 Minimal AngularJS Setup
 
+
 ## AngularJS
 [AngularJS](https://angularjs.org/) needs no introduction.
+
 
 ## Why?
 - Most setups are bloated with unnecessary options.
@@ -12,29 +14,37 @@ Minimal AngularJS Setup
 - Minimal functional Angular setup.
 - Minimal working example.
 
-## Clone and install dependencies
+
+## If you are new to Node
+[Download and Install Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) for more information.
+
+
+## To use as Repository: 
+### Clone
 ```sh
 git clone https://github.com/dmitriz/min-angular
-npm install --save
+```
+or simply [Download this Repository](https://github.com/dmitriz/min-angular/archive/master.zip),
+unzip it and `cd min-angular-master`.
+
+### Install dependencies
+```sh
+npm install --save-dev
 ```
 
-## Or install with `npm`
-Create new directory:
+## To use as Package:
+In your main project directory (should contain `package.json`):
 ```sh
-mkdir new-directory && cd new-directory
+npm install min-angular --save
 ```
-Install the package:
-```sh
-npm init -y
-npm install min-karma --save
-```
-That's it.
 
 ## Getting started
-Run your tests:
+Simply open `index.html` in your browser:
 ```sh
-karma start
+open index.html
 ```
-Now try to edit files inside `src` folder and see how karma is watching and updating your test results.
+If everything works, you should see:
+> Angular is working: true
 
+From here you can go and add anything you need.
 Enjoy!

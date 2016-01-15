@@ -5,10 +5,11 @@
 </head>
 <body>
 	<p>Angular is working: <span ng-bind="1+2 == 3"></span></p>
+	
 	<script src="node_modules/angular/angular.min.js" type="text/javascript"></script>
 	<script>
 		angular.module('app', [])
-		angular.element(document.body).ready(function() {
+		angular.element(document.body).ready(function () {
 		  angular.bootstrap(document.body, ['app'])
 		})
 	</script>
