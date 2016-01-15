@@ -1,4 +1,4 @@
-# min-angular
+# min-angular [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 Minimal AngularJS Setup
 
 ## AngularJS
@@ -10,7 +10,7 @@ Minimal AngularJS Setup
 
 ## Features
 - Minimal functional Angular setup.
-- Minimal testing example.
+- Minimal working example.
 
 ## Clone and install dependencies
 ```sh

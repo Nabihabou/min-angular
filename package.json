@@ -13,7 +13,6 @@
   },
   "scripts": {
     "start": "open index.html",
-    "test": "karma start",
     "postinstall": "node index.js"
   },
   "main": "index.js",
@@ -22,14 +21,10 @@
     "index.html"
   ],
   "keywords": [
-    "angular",
-    "karma",
-    "jasmine",
-    "testing"
+    "angular"
   ],
   "dependencies": {
     "angular": "^1.4.8",
-    "min-karma": "^0.1.17",
     "shelljs": "^0.5.3"
   },
   "devDependencies": {},
