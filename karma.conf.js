@@ -3,14 +3,14 @@
 module.exports = function(config) {
   config.set({
 
-    // frameworks to use
-    // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
+    // frameworks available: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['jasmine'],
 
-    // list of files / glob patterns to load in the browser
+    // files / glob patterns to load
+    // Tip. Keep your tests next to testees for better cohesion
     files: [
 
-      // load all `.js` files inside `src`
+      // load all `.js` files inside `examples`
       'src/**/*.js'
     ],
 
