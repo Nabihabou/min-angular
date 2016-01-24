@@ -39,9 +39,9 @@ npm install min-angular --save
 ```
 
 ## Getting started
-Simply open `index.html` in your browser:
+Simply open `demo/index.html` in your browser:
 ```sh
-open index.html
+open demo/index.html
 ```
 If everything works, you should see:
 > Angular is working: true
