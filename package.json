@@ -12,7 +12,7 @@
     "url": "https://github.com/dmitriz"
   },
   "scripts": {
-    "start": "open index.html",
+    "start": "open demo/index.html",
     "pub": "npm version patch && npm publish",
     "sync": "git ac && git pull --rebase && git push",
     "postinstall": "node index.js"
@@ -20,14 +20,15 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "index.html"
+    "demo"
   ],
   "keywords": [
-    "angular"
+    "angular",
+    "bootstrap"
   ],
   "dependencies": {
     "angular": "^1.4.8",
-    "shelljs": "^0.5.3"
+    "gently-copy": "0.0.4"
   },
   "devDependencies": {},
   "standard": {
