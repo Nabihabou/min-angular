@@ -1,6 +1,5 @@
 {
   "name": "min-angular",
-  "version": "1.0.0",
   "description": "Minimal AngularJS setup",
   "repository": {
     "type": "git",
