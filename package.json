@@ -27,10 +27,11 @@
     "bootstrap"
   ],
   "dependencies": {
-    "angular": "^1.5.0-rc.1",
+    "angular": "^1.5.0-rc.2",
     "gently-copy": "^1.1.5"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5",
     "semantic-release": "^4.3.5"
   },
   "standard": {
@@ -46,5 +47,10 @@
   "bugs": {
     "url": "https://github.com/dmitriz/min-angular/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
