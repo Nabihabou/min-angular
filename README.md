@@ -13,6 +13,7 @@ Minimal AngularJS Setup
 - Most setups are bloated with unnecessary options.
 - Start clean and minimal and extend as you go.
 
+
 ## Features
 - Minimal functional Angular setup.
 - Minimal working example.
@@ -29,6 +30,7 @@ git clone https://github.com/dmitriz/min-angular
 ```
 or simply [Download this Repository](https://github.com/dmitriz/min-angular/archive/master.zip),
 unzip it and `cd min-angular-master`.
+
 
 ### Install dependencies
 ```sh
