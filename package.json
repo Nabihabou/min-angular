@@ -28,7 +28,7 @@
   ],
   "dependencies": {
     "angular": "^1.5.0",
-    "gently-copy": "^2.0.2"
+    "gently-copy": "^2.1.2"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.5",
