@@ -31,7 +31,7 @@
     "gently-copy": "^2.1.2"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^1.1.5",
+    "cz-conventional-changelog": "^2.0.0",
     "semantic-release": "^4.3.5"
   },
   "standard": {
